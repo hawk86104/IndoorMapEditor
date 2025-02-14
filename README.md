@@ -1,9 +1,10 @@
-最近要落地 室内商场的三维展示 场景 ，于是在github上一顿找，没有找到好的。最符合的要求就是：
+# 最近要落地 室内商场的三维展示 场景 ，于是在github上一顿找，没有找到好的。最符合的要求就是：
 
-## 基于原生js的以及比较低版本的three.js
+## indoor3D
+### 基于原生js的以及比较低版本的three.js
 https://github.com/wolfwind521/indoor3D
 
-## 它有配套的编辑器:基于qt5的c++
+### 它有配套的编辑器:基于qt5的c++
 https://github.com/wolfwind521/IndoorMapEditor
 
 ## 它们也有各种衍生：
@@ -20,13 +21,13 @@ https://github.com/tommy2gis/indoor3D
 ## 采坑记录
 本方案是基于 wolfwind521/indoor3D 的一套
 
-### 更新代码
+### 更新代码 [本项目master分支]
 代码直接拉取后 发现了问题，因为是很早之前的代码了，使用的是qt5.x的版本
 我用的是maco15.1.1 arm的m1 ，原则上从codex和sdk都不太兼容
 所以使用最新的qt6.x，然后codex也是最新的，当然项目indoor3D函数也根据最新的qt6.x方式更改了，即目前看到的最新版本
 打包编译运行都可以了。 但是app很脆弱很容易崩亏。
 
-### 匹配环境
+### 匹配环境[本项目qt5.x分支]
 所以想是不是更改代码或者本身项目升级就会出现问题，因为c++的程序嘛，对底层内存的控制不同cpu运算字符了，可能会有区别。
 就用x86的笔记本，虚拟了macos14.x版本的系统，安装了qt5.x的版本 codex 10的sdk
 就是本项目qt5.x分支部分代码。
