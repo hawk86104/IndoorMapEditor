@@ -45,4 +45,4 @@ https://github.com/tommy2gis/indoor3D
 本人是tvt.js的作者:https://github.com/hawk86104/three-vue-tres
 所以想在插件商场落地这个场景，看了数据结构后，还是想用通用的geojson格式的配置文件，通过tvt的底子来展示三维场景
 编辑器部分将使用通用的geojson编辑器
-紧张开发中，将在https://icegl.cn/tvtstore 开放，敬请期待吧
+已完成 详见 https://www.icegl.cn/tvtstore/networkLinkTopology.html
